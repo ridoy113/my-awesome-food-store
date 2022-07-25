@@ -22,6 +22,11 @@ body {
 }
 
 @font-face {
+    font-family: "Raleway-extraBold";
+    src: url(../fonts/Raleway-Extrabold.ttf);
+}
+
+@font-face {
     font-family: "Raleway-semiBold";
     src: url(../fonts/Raleway-SemiBold.ttf);
 }
@@ -201,4 +206,93 @@ nav .navbar a:hover {
     position: absolute;
     z-index: -1;
     background-position: center;
+}
+
+
+
+/* start hero */
+header.hero {
+    height: 600px;
+    background-image: url(../images/hero.png);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header.hero .container {
+    position: relative;
+}
+
+header.hero .welcome {
+    margin-bottom: 0.25rem;
+}
+
+header.hero .welcome span {
+    font-family: "Raleway-bold";
+    color: var(--secondary);
+    margin-right: 0.75rem;
+}
+
+header.hero h1 {
+    font-family: 'Raleway-extrabold';
+    color: var(--secondary);
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+header.hero h1 span {
+    color: var(--primary);
+}
+
+header.hero p {
+    font-family: "Raleway-medium";
+    width: 50%;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 0.75rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    line-height: 0.8;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--heaven);
+}
+
+.btn-primary:hover {
+    background: var(--heaven);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn-secondary {
+    background: var(--secondary);
+    color: var(--heaven);
+}
+
+.btn-secondary:hover {
+    background: var(--heaven);
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+header.hero button:first-child {
+    margin-right: 0.50rem;
+}
+
+header.hero .hero-img {
+    position: absolute;
+    top: -40px;
+    right: 40px;
 }
