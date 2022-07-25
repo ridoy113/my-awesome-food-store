@@ -1,5 +1,5 @@
 body {
-    -webkit-font-smoothing: antialised;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -121,6 +121,14 @@ header.topbar .auth>div a {
     text-decoration: none;
 }
 
-header.topbar .container {}
+header.topbar .icons a {
+    margin-right: 0.6rem;
+}
 
-header.topbar .container .auth {}
+header.topbar .auth .divider {
+    padding: 0 1rem;
+}
+
+header.topbar .auth>div img {
+    margin-right: 0.35rem;
+}
