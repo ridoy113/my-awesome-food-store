@@ -458,3 +458,7 @@ section.top-products .food-slider .food-card button:hover {
 .slick-track {
     padding: 1rem 0;
 }
+
+section.about-meal img {
+    width: 85%;
+}
