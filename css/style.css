@@ -1,6 +1,7 @@
 body {
     -webkit-font-smoothing: antialiased;
     font-family: "Raleway-regular";
+    overflow-x: hidden;
 }
 
 
