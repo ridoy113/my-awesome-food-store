@@ -4,5 +4,6 @@ $(document).ready(function () {
         slidesToScroll: 1,
         prevArrow: ".prev-btn",
         nextArrow: ".next-btn",
+        autoplay: true,
     });
 })
